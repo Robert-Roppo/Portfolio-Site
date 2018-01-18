@@ -2,6 +2,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background-color: #dddddd;
     text-align: center;
+    text-shadow: 1px 1px black;
 }
 
 a:hover {
@@ -237,11 +238,31 @@ header.smaller h1#logo {
     }
 }
 
+.education-container{
+    padding: 50px;
+    color: white;
+    background: black;
+}
+
+.education-image{
+    background: transparent url("../assets/Education.jpg") no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    max-height: 550px;
+}
+
 .education-row{
     padding-top: 60px;
     padding-bottom: 40px;
     margin: auto;
     max-width: 810px;
+}
+
+.education-row-list{
+    padding-top: 20px;
+
 }
 
 .education-col-1 {
@@ -255,4 +276,10 @@ header.smaller h1#logo {
 
 .coursework-container {
     max-width: 730px;
+}
+
+.projects-container{
+    background-color: #222324;
+    color:white;
+    padding: 50px;
 }
