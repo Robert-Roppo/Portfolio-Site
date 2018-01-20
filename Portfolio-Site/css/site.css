@@ -283,3 +283,22 @@ header.smaller h1#logo {
     color:white;
     padding: 50px;
 }
+
+.project-row{
+    padding-top: 40px;
+}
+
+.project-desc-row{
+    padding-top: 20px;
+}
+
+
+.carousel-container {
+    max-height: 600px;
+    max-width: 1000px;
+}
+
+.carousel-img {
+    max-height: 600px;
+    max-width: 1000px;
+}
