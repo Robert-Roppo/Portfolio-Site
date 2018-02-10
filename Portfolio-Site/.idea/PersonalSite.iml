@@ -11,5 +11,7 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="debug.addIndicators" level="application" />
     <orderEntry type="library" name="ScrollMagic" level="application" />
+    <orderEntry type="library" name="TweenMax" level="application" />
+    <orderEntry type="library" name="TweenLite" level="application" />
   </component>
 </module>
