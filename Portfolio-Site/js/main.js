@@ -38,10 +38,12 @@ $(document).ready(function() {
     })
 });
 
+
+/*------------------SCROLL MAGIC---------------*/
 //implement scroll magic
 var scrollController = new ScrollMagic.Controller();
 
-//set up about container ease in
+//set up about section ease in
 var aboutScene = new ScrollMagic.Scene({
     triggerElement: '.about-row'
 })
@@ -54,3 +56,26 @@ var  skillScene1 = new ScrollMagic.Scene({
 })
     .setClassToggle('.more-skills-container', 'skills-show')
     .addTo(scrollController);
+
+//set up edu section ease in
+var eduScene = new ScrollMagic.Scene({
+    triggerElement: '.edu-scroll'
+})
+    .setClassToggle('.edu-scroll','edu-show')
+    .addTo(scrollController);
+
+//set up animations for projects
+
+
+//set active class toggles
+/*var aboutToggle = new ScrollMagic.Scene({
+    triggerElement: '#about'
+})
+    .setClassToggle('.classToggle','active')
+    .addTo(scrollController);
+
+var skillsToggle = new ScrollMagic.Scene({
+    triggerElement: '#skills'
+})
+    .setClassToggle('.skillsToggle','active')
+    .addTo(scrollController);*/

@@ -10,6 +10,15 @@ a:hover {
     text-decoration: none;
 }
 
+a:focus{
+    color: grey;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
 a {
     color: #2196f3;
 }
@@ -70,7 +79,7 @@ header nav a:hover {
     text-decoration: none;
 }
 
-header nav a:active{
+.active{
     color: white;
     text-decoration: none;
 }
@@ -95,21 +104,6 @@ header.smaller h1#logo {
     font-size: 30px;
 }
 
-header.smaller nav a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-header.smaller nav a:active{
-    color: white;
-    text-decoration: none;
-}
-
-header.smaller nav a:visited {
-    color: gray;
-    text-decoration: none;
-
-}
 
 @media all and (max-width: 660px) {
     header h1#logo {
@@ -320,6 +314,16 @@ header.smaller nav a:visited {
 
 }
 
+.edu-scroll{
+    opacity: 0;
+    transition: 1s;
+}
+
+.edu-show{
+    opacity: 1;
+    transition: 1s;
+}
+
 .education-image{
     background: transparent url("../assets/Education.jpg") no-repeat right center;
     -webkit-background-size: cover;
@@ -396,13 +400,13 @@ header.smaller nav a:visited {
     padding-bottom: 10px;
 }
 
-.btn-primary {
+.btn-primary ,.btn-primary:active, .btn-primary.active, .open{
     color: white;
     border: 1px solid #2196f3;
     background-color: #2196f3;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus > .dropdown-toggle.btn-primary {
     background: #2B303A;
     color: white;
 }
