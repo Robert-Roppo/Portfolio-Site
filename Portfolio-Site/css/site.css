@@ -6,9 +6,15 @@ body{
 }
 
 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:focus{
     color: grey;
     text-decoration: none;
 }
+
 
 a {
     color: #2196f3;
@@ -36,6 +42,7 @@ header{
 header h1#logo {
     display: inline-block;
     height: 150px;
+    width: 100px;
     line-height: 150px;
     float: left;
     font-size: 45px;
@@ -55,7 +62,7 @@ header nav {
 header nav a {
     line-height: 150px;
     margin-left: 20px;
-    color: white;
+    color: gray;
     font-weight: 700;
     font-size: 18px;
     -webkit-transition: all 0.3s;
@@ -66,9 +73,16 @@ header nav a {
 }
 
 header nav a:hover {
-    color: gray;
+    color: white;
     text-decoration: none;
 }
+
+.active{
+    color: white;
+    text-decoration: none;
+}
+
+
 
 header.smaller {
     height: 75px;
@@ -79,11 +93,12 @@ header.smaller nav a {
 }
 
 header.smaller h1#logo {
-    width: 150px;
-    height: 75px;
+    width: 100px;
+    height: 50px;
     line-height: 75px;
     font-size: 30px;
 }
+
 
 @media all and (max-width: 660px) {
     header h1#logo {
@@ -205,7 +220,14 @@ header.smaller h1#logo {
 .about-row {
     padding-top: 40px;
     padding-bottom: 40px;
+    opacity: 0;
+    transition: 1s;
 }
+
+.about-show{
+     opacity: 1;
+     transition: 1s;
+ }
 
 .about-col {
     text-align: left;
@@ -225,6 +247,8 @@ header.smaller h1#logo {
 
 .more-skills-container{
     max-width:600px;
+    opacity: 0;
+    transition: 1s;
 }
 
 .more-skills-row{
@@ -240,6 +264,11 @@ header.smaller h1#logo {
     padding-top: 60px;
     padding-bottom: 40px;
  }
+
+.skills-show{
+    opacity: 1;
+    transition: 1s;
+}
 
 .center-ul{
     text-align: left;
@@ -280,13 +309,19 @@ header.smaller h1#logo {
 
 }
 
+.edu-scroll{
+    opacity: 0;
+    transition: 1s;
+}
+
+.edu-show{
+    opacity: 1;
+    transition: 1s;
+}
+
 .education-image{
     background: transparent url("../assets/Education.jpg") no-repeat right center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100%;
-    max-height: 550px;
+    background-size: cover;
 }
 
 .education-row{
@@ -328,9 +363,29 @@ header.smaller h1#logo {
     padding-top: 20px;
 }
 
+.pro1-scroll{
+     opacity: 0;
+     transition: 1s;
+ }
+
+.pro1-show{
+    opacity: 1;
+    transition: 1s;
+}
+
+.pro2-scroll{
+    opacity: 0;
+    transition: 1s;
+}
+
+.pro2-show{
+    opacity: 1;
+    transition: 1s;
+}
+
 
 .carousel-container {
-    max-height: 600px;
+    max-height: 951px;
     max-width: 1000px;
 }
 
@@ -356,13 +411,13 @@ header.smaller h1#logo {
     padding-bottom: 10px;
 }
 
-.btn-primary {
+.btn-primary ,.btn-primary:active, .btn-primary.active, .open{
     color: white;
     border: 1px solid #2196f3;
     background-color: #2196f3;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus > .dropdown-toggle.btn-primary {
     background: #2B303A;
     color: white;
 }
@@ -389,6 +444,7 @@ header.smaller h1#logo {
     max-width: 400px;
     max-height: 400px;
     background-color: #222324;
+    color: white;
 }
 
 .contact-row {
@@ -417,4 +473,9 @@ header.smaller h1#logo {
 
 i:hover {
     animation: bounce 1s;
+}
+
+.footer-bg{
+    background: url("../assets/seattleNight.jpg") center center;
+    background-size: cover;
 }
