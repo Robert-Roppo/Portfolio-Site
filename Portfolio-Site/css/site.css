@@ -6,7 +6,7 @@ body{
 }
 
 a:hover {
-    color: grey;
+    color: white;
     text-decoration: none;
 }
 
@@ -15,9 +15,6 @@ a:focus{
     text-decoration: none;
 }
 
-a:active {
-    color: white;
-}
 
 a {
     color: #2196f3;
@@ -45,6 +42,7 @@ header{
 header h1#logo {
     display: inline-block;
     height: 150px;
+    width: 100px;
     line-height: 150px;
     float: left;
     font-size: 45px;
@@ -84,10 +82,7 @@ header nav a:hover {
     text-decoration: none;
 }
 
-header nav a:visited {
-    color: gray;
-    text-decoration: none;
-}
+
 
 header.smaller {
     height: 75px;
@@ -98,8 +93,8 @@ header.smaller nav a {
 }
 
 header.smaller h1#logo {
-    width: 150px;
-    height: 75px;
+    width: 100px;
+    height: 50px;
     line-height: 75px;
     font-size: 30px;
 }
@@ -366,6 +361,26 @@ header.smaller h1#logo {
 
 .project-desc-row{
     padding-top: 20px;
+}
+
+.pro1-scroll{
+     opacity: 0;
+     transition: 1s;
+ }
+
+.pro1-show{
+    opacity: 1;
+    transition: 1s;
+}
+
+.pro2-scroll{
+    opacity: 0;
+    transition: 1s;
+}
+
+.pro2-show{
+    opacity: 1;
+    transition: 1s;
 }
 
 
