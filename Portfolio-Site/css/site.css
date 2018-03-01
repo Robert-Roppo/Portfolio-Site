@@ -326,11 +326,7 @@ header.smaller h1#logo {
 
 .education-image{
     background: transparent url("../assets/Education.jpg") no-repeat right center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100%;
-    max-height: 550px;
+    background-size: cover;
 }
 
 .education-row{
@@ -433,6 +429,7 @@ header.smaller h1#logo {
     max-width: 400px;
     max-height: 400px;
     background-color: #222324;
+    color: white;
 }
 
 .contact-row {
@@ -461,4 +458,9 @@ header.smaller h1#logo {
 
 i:hover {
     animation: bounce 1s;
+}
+
+.footer-bg{
+    background: url("../assets/seattleNight.jpg") center center;
+    background-size: cover;
 }

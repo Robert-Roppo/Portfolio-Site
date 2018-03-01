@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90126f6a-31e1-4a60-a96d-42d3359fb3d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Dashboard.JPG" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Dashboard.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/SeattleNight.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Site/css/site.css" afterPath="$PROJECT_DIR$/Portfolio-Site/css/site.css" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Site/index.html" afterPath="$PROJECT_DIR$/Portfolio-Site/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,21 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio-Site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="214" column="37" lean-forward="true" selection-start-line="214" selection-start-column="37" selection-end-line="214" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="402">
+              <caret line="158" column="56" lean-forward="false" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="site.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Portfolio-Site/css/site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="365" column="0" lean-forward="false" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+            <state relative-caret-position="793">
+              <caret line="464" column="27" lean-forward="false" selection-start-line="464" selection-start-column="27" selection-end-line="464" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -55,8 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Portfolio-Site/js/main.js" />
-        <option value="$PROJECT_DIR$/Portfolio-Site/css/site.css" />
         <option value="$PROJECT_DIR$/Portfolio-Site/index.html" />
+        <option value="$PROJECT_DIR$/Portfolio-Site/css/site.css" />
       </list>
     </option>
   </component>
@@ -66,11 +71,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="150" />
-    <option name="y" value="102" />
-    <option name="width" value="1554" />
-    <option name="height" value="845" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="468" />
+    <option name="y" value="204" />
+    <option name="width" value="1343" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -110,20 +115,6 @@
               <item name="Portfolio-Site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio-Site" type="462c0819:PsiDirectoryNode" />
               <item name="Portfolio-Site" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="andChill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-Site" type="462c0819:PsiDirectoryNode" />
-              <item name="Portfolio-Site" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="RightOnTime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-Site" type="462c0819:PsiDirectoryNode" />
-              <item name="Portfolio-Site" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -153,9 +144,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Portfolio-Site\Portfolio-Site\assets" />
       <recent name="D:\Desktop\Portfolio-Site\Portfolio-Site\assets\RightOnTime" />
       <recent name="D:\Desktop\Portfolio-Site\Portfolio-Site\assets\andChill" />
-      <recent name="D:\Desktop\Portfolio-Site\Portfolio-Site\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Boone\Documents\Portfolio-Site\Portfolio-Site\js\easy-pie" />
@@ -187,15 +178,15 @@
       <option name="presentableId" value="Default" />
       <updated>1518455074057</updated>
       <workItem from="1518455085417" duration="7974000" />
-      <workItem from="1519856820273" duration="5907000" />
+      <workItem from="1519856820273" duration="7312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13881000" />
+    <option name="totallyTimeSpent" value="15286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24270834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -232,7 +223,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -252,11 +245,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio-Site/css/site.css">
+    <entry file="file://$PROJECT_DIR$/Portfolio-Site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="365" column="0" lean-forward="false" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="402">
+          <caret line="158" column="56" lean-forward="false" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -268,10 +263,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio-Site/index.html">
+    <entry file="file://$PROJECT_DIR$/Portfolio-Site/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="214" column="37" lean-forward="true" selection-start-line="214" selection-start-column="37" selection-end-line="214" selection-end-column="37" />
+        <state relative-caret-position="793">
+          <caret line="464" column="27" lean-forward="false" selection-start-line="464" selection-start-column="27" selection-end-line="464" selection-end-column="27" />
           <folding />
         </state>
       </provider>
