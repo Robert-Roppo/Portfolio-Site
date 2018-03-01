@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90126f6a-31e1-4a60-a96d-42d3359fb3d8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Dashboard.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Homepage.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Job Details Page.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Job List.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/JobDetails.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Manage Users.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Purchases.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/TaskModal.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/andChill/Chillin.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/andChill/ChillinSelected.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/andChill/Pick Action.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/andChill/PickScene.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/andChill/Result.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/andChill/Scene.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/andChill/Services.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/andChill/Welcome.JPG" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Site/assets/Education.jpg" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/Education.jpg" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Dashboard.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Login.JPG" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Login.JPG" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Site/css/site.css" afterPath="$PROJECT_DIR$/Portfolio-Site/css/site.css" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Site/index.html" afterPath="$PROJECT_DIR$/Portfolio-Site/index.html" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Dashboard.JPG" afterPath="$PROJECT_DIR$/Portfolio-Site/assets/RightOnTime/Dashboard.JPG" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -208,12 +187,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518455074057</updated>
       <workItem from="1518455085417" duration="7974000" />
-      <workItem from="1519856820273" duration="5575000" />
+      <workItem from="1519856820273" duration="5907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13549000" />
+    <option name="totallyTimeSpent" value="13881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
